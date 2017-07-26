@@ -47,6 +47,7 @@ class UserCollection(object):
 
         self._data = None
         self._version = None
+        self.discriminator = None
 
         self.data = data
         self.version = version

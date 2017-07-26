@@ -47,6 +47,7 @@ class InventoryCountFilter(object):
 
         self._type = None
         self._value = None
+        self.discriminator = None
 
         self.type = type
         self.value = value

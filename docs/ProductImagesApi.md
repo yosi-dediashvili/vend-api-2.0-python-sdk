@@ -24,8 +24,17 @@ import vend_api_2
 from vend_api_2.rest import ApiException
 from pprint import pprint
 
+# Configure OAuth2 access token for authorization: oauth
+configuration = vend_api_2.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure API key authorization: personal_token
+configuration = vend_api_2.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = vend_api_2.ProductImagesApi()
+api_instance = vend_api_2.ProductImagesApi(vend_api_2.ApiClient(configuration))
 product_image_id = 'product_image_id_example' # str | 
 
 try: 
@@ -47,7 +56,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth), [personal_token](../README.md#personal_token)
 
 ### HTTP request headers
 
@@ -71,8 +80,17 @@ import vend_api_2
 from vend_api_2.rest import ApiException
 from pprint import pprint
 
+# Configure OAuth2 access token for authorization: oauth
+configuration = vend_api_2.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure API key authorization: personal_token
+configuration = vend_api_2.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = vend_api_2.ProductImagesApi()
+api_instance = vend_api_2.ProductImagesApi(vend_api_2.ApiClient(configuration))
 product_image_id = 'product_image_id_example' # str | Valid product ID.
 
 try: 
@@ -95,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth), [personal_token](../README.md#personal_token)
 
 ### HTTP request headers
 
@@ -119,8 +137,17 @@ import vend_api_2
 from vend_api_2.rest import ApiException
 from pprint import pprint
 
+# Configure OAuth2 access token for authorization: oauth
+configuration = vend_api_2.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure API key authorization: personal_token
+configuration = vend_api_2.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = vend_api_2.ProductImagesApi()
+api_instance = vend_api_2.ProductImagesApi(vend_api_2.ApiClient(configuration))
 body = vend_api_2.ImagePosition() # ImagePosition | 
 product_image_id = 'product_image_id_example' # str | 
 
@@ -145,7 +172,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth), [personal_token](../README.md#personal_token)
 
 ### HTTP request headers
 

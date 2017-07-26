@@ -116,7 +116,7 @@ class CustomersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/customers', 'POST',
                                         path_params,
@@ -214,7 +214,7 @@ class CustomersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/customers/{customer_id}', 'DELETE',
                                         path_params,
@@ -312,7 +312,7 @@ class CustomersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/customers/{customer_id}', 'GET',
                                         path_params,
@@ -415,7 +415,7 @@ class CustomersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/customers', 'GET',
                                         path_params,
@@ -520,7 +520,7 @@ class CustomersApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/customers/{customer_id}', 'PUT',
                                         path_params,

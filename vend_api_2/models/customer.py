@@ -170,6 +170,7 @@ class Customer(object):
         self._updated_at = None
         self._deleted_at = None
         self._version = None
+        self.discriminator = None
 
         self.first_name = first_name
         self.last_name = last_name

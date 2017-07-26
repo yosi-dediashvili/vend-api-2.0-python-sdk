@@ -47,6 +47,7 @@ class LineItemTaxComponent(object):
 
         self._rate_id = None
         self._total_tax = None
+        self.discriminator = None
 
         self.rate_id = rate_id
         self.total_tax = total_tax

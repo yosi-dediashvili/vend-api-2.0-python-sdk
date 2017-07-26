@@ -59,6 +59,7 @@ class PriceBookBase(object):
         self._valid_to = None
         self._restrict_to_platform_key = None
         self._outlet_id = None
+        self.discriminator = None
 
         self.name = name
         self.customer_group_id = customer_group_id

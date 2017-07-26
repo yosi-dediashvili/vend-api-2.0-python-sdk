@@ -128,7 +128,7 @@ class ProductsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/products/{product_id}/inventory', 'GET',
                                         path_params,
@@ -226,7 +226,7 @@ class ProductsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/products/{product_id}', 'GET',
                                         path_params,
@@ -333,7 +333,7 @@ class ProductsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/products', 'GET',
                                         path_params,
@@ -438,7 +438,7 @@ class ProductsApi(object):
             select_header_content_type(['multipart/form-data'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/products/{product_id}/actions/image_upload', 'POST',
                                         path_params,

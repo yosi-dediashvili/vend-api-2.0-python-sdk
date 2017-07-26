@@ -51,6 +51,13 @@ import time
 import vend_api_2
 from vend_api_2.rest import ApiException
 from pprint import pprint
+
+# Configure OAuth2 access token for authorization: oauth
+vend_api_2.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure API key authorization: personal_token
+vend_api_2.configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# vend_api_2.configuration.api_key_prefix['Authorization'] = 'Bearer'
 # create an instance of the API class
 api_instance = vend_api_2.BrandsApi()
 brand_id = 'brand_id_example' # str | Valid brand ID.
@@ -195,7 +202,19 @@ Class | Method | HTTP request | Description
 
 ## Documentation For Authorization
 
- All endpoints do not require authorization.
+
+## oauth
+
+- **Type**: OAuth
+- **Flow**: accessCode
+- **Authorization URL**: https://secure.vendhq.com/connect
+- **Scopes**: N/A
+
+## personal_token
+
+- **Type**: API key
+- **API key parameter name**: Authorization
+- **Location**: HTTP header
 
 
 ## Author

@@ -122,6 +122,7 @@ class Product(object):
         self._updated_at = None
         self._deleted_at = None
         self._version = None
+        self.discriminator = None
 
         self.name = name
         self.handle = handle

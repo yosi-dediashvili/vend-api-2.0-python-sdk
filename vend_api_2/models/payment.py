@@ -59,6 +59,7 @@ class Payment(object):
         self._payment_type_id = None
         self._payment_date = None
         self._amount = None
+        self.discriminator = None
 
         if name is not None:
           self.name = name

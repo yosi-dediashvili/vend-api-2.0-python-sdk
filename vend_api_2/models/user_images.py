@@ -62,6 +62,7 @@ class UserImages(object):
         self._thumb = None
         self._sl = None
         self._sm = None
+        self.discriminator = None
 
         if ss is not None:
           self.ss = ss

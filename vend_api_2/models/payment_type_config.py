@@ -47,6 +47,7 @@ class PaymentTypeConfig(object):
 
         self._url = None
         self.__print = None
+        self.discriminator = None
 
         if url is not None:
           self.url = url

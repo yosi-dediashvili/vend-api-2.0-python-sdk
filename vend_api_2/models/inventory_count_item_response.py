@@ -44,6 +44,7 @@ class InventoryCountItemResponse(object):
         """
 
         self._data = None
+        self.discriminator = None
 
         self.data = data
 

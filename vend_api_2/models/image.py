@@ -56,6 +56,7 @@ class Image(object):
         self._product_id = None
         self._position = None
         self._status = None
+        self.discriminator = None
 
         if id is not None:
           self.id = id

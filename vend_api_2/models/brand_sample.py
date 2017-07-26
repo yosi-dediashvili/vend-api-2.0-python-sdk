@@ -53,6 +53,7 @@ class BrandSample(object):
         self._name = None
         self._deleted_at = None
         self._version = None
+        self.discriminator = None
 
         if id is not None:
           self.id = id

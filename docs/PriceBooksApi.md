@@ -24,8 +24,17 @@ import vend_api_2
 from vend_api_2.rest import ApiException
 from pprint import pprint
 
+# Configure OAuth2 access token for authorization: oauth
+configuration = vend_api_2.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure API key authorization: personal_token
+configuration = vend_api_2.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = vend_api_2.PriceBooksApi()
+api_instance = vend_api_2.PriceBooksApi(vend_api_2.ApiClient(configuration))
 body = vend_api_2.PriceBookBase() # PriceBookBase | 
 
 try: 
@@ -48,7 +57,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth), [personal_token](../README.md#personal_token)
 
 ### HTTP request headers
 
@@ -72,8 +81,17 @@ import vend_api_2
 from vend_api_2.rest import ApiException
 from pprint import pprint
 
+# Configure OAuth2 access token for authorization: oauth
+configuration = vend_api_2.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure API key authorization: personal_token
+configuration = vend_api_2.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = vend_api_2.PriceBooksApi()
+api_instance = vend_api_2.PriceBooksApi(vend_api_2.ApiClient(configuration))
 price_book_id = 'price_book_id_example' # str | Valid price book ID.
 
 try: 
@@ -96,7 +114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth), [personal_token](../README.md#personal_token)
 
 ### HTTP request headers
 
@@ -120,8 +138,17 @@ import vend_api_2
 from vend_api_2.rest import ApiException
 from pprint import pprint
 
+# Configure OAuth2 access token for authorization: oauth
+configuration = vend_api_2.Configuration()
+configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure API key authorization: personal_token
+configuration = vend_api_2.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = vend_api_2.PriceBooksApi()
+api_instance = vend_api_2.PriceBooksApi(vend_api_2.ApiClient(configuration))
 after = 3.4 # float | The lower limit for the version numbers to be included in the response. (optional)
 before = 3.4 # float | The upper limit for the version numbers to be included in the response. (optional)
 page_size = 3.4 # float | The maximum number of items to be returned in the response. (optional)
@@ -148,7 +175,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[oauth](../README.md#oauth), [personal_token](../README.md#personal_token)
 
 ### HTTP request headers
 

@@ -56,6 +56,7 @@ class PaymentType(object):
         self._type_id = None
         self._config = None
         self._version = None
+        self.discriminator = None
 
         self.id = id
         self.name = name

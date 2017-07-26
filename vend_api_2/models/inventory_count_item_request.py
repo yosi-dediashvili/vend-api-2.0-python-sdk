@@ -47,6 +47,7 @@ class InventoryCountItemRequest(object):
 
         self._product_id = None
         self._received = None
+        self.discriminator = None
 
         self.product_id = product_id
         self.received = received

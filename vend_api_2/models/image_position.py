@@ -44,6 +44,7 @@ class ImagePosition(object):
         """
 
         self._position = None
+        self.discriminator = None
 
         self.position = position
 

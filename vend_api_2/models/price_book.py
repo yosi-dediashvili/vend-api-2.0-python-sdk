@@ -74,6 +74,7 @@ class PriceBook(object):
         self._customer_group = None
         self._version = None
         self._deleted_at = None
+        self.discriminator = None
 
         self.name = name
         self.customer_group_id = customer_group_id

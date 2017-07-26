@@ -116,7 +116,7 @@ class ProductImagesApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/product_images/{product_image_id}', 'DELETE',
                                         path_params,
@@ -214,7 +214,7 @@ class ProductImagesApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/product_images/{product_image_id}', 'GET',
                                         path_params,
@@ -319,7 +319,7 @@ class ProductImagesApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/product_images/{product_image_id}', 'PUT',
                                         path_params,

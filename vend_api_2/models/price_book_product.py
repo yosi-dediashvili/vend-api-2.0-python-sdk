@@ -71,6 +71,7 @@ class PriceBookProduct(object):
         self._created_at = None
         self._updated_at = None
         self._deleted_at = None
+        self.discriminator = None
 
         self.product_id = product_id
         self.price_book_id = price_book_id

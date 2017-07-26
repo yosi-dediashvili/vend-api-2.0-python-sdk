@@ -116,7 +116,7 @@ class BrandsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/brands/{brand_id}', 'GET',
                                         path_params,
@@ -219,7 +219,7 @@ class BrandsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/brands', 'GET',
                                         path_params,

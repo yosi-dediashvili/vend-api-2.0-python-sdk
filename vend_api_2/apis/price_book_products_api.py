@@ -121,7 +121,7 @@ class PriceBookProductsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/price_book_products', 'GET',
                                         path_params,

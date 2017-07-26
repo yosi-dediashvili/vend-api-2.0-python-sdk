@@ -59,6 +59,7 @@ class Inventory(object):
         self._inventory_level = None
         self._reorder_point = None
         self._reorder_amount = None
+        self.discriminator = None
 
         if id is not None:
           self.id = id

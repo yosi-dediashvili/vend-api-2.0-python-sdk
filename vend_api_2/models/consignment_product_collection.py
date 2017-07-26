@@ -44,6 +44,7 @@ class ConsignmentProductCollection(object):
         """
 
         self._data = None
+        self.discriminator = None
 
         if data is not None:
           self.data = data

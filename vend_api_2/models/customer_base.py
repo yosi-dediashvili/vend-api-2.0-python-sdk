@@ -143,6 +143,7 @@ class CustomerBase(object):
         self._custom_field_2 = None
         self._custom_field_3 = None
         self._custom_field_4 = None
+        self.discriminator = None
 
         self.first_name = first_name
         self.last_name = last_name

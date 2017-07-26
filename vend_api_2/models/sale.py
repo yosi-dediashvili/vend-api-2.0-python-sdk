@@ -95,6 +95,7 @@ class Sale(object):
         self._note = None
         self._short_code = None
         self._sale_date = None
+        self.discriminator = None
 
         if outlet_id is not None:
           self.outlet_id = outlet_id

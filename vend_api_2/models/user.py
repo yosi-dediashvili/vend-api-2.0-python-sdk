@@ -98,6 +98,7 @@ class User(object):
         self._is_primary_user = None
         self._image_source = None
         self._images = None
+        self.discriminator = None
 
         self.id = id
         self.username = username

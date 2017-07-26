@@ -89,6 +89,7 @@ class Outlet(object):
         self._physical_country_id = None
         self._deleted_at = None
         self._version = None
+        self.discriminator = None
 
         if id is not None:
           self.id = id

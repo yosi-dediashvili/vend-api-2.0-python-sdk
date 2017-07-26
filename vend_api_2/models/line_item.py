@@ -95,6 +95,7 @@ class LineItem(object):
         self._sequence = None
         self._note = None
         self._status = None
+        self.discriminator = None
 
         if tax_id is not None:
           self.tax_id = tax_id

@@ -116,7 +116,7 @@ class ProductTypesApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/product_types/{product_type_id}', 'GET',
                                         path_params,
@@ -219,7 +219,7 @@ class ProductTypesApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/product_types', 'GET',
                                         path_params,

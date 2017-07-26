@@ -101,6 +101,7 @@ class Consignment(object):
         self._deleted_at = None
         self._version = None
         self._total_count_gain = None
+        self.discriminator = None
 
         if id is not None:
           self.id = id

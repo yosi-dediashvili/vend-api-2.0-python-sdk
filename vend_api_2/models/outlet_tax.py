@@ -56,6 +56,7 @@ class OutletTax(object):
         self._tax_id = None
         self._deleted_at = None
         self._version = None
+        self.discriminator = None
 
         self.outlet_id = outlet_id
         self.product_id = product_id

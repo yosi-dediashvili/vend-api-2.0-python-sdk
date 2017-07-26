@@ -47,6 +47,7 @@ class Version(object):
 
         self._min = None
         self._max = None
+        self.discriminator = None
 
         self.min = min
         self.max = max

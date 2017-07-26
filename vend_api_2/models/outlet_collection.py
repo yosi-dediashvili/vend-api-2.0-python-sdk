@@ -47,6 +47,7 @@ class OutletCollection(object):
 
         self._data = None
         self._version = None
+        self.discriminator = None
 
         if data is not None:
           self.data = data

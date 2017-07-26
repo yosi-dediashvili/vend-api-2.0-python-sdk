@@ -123,7 +123,7 @@ class ConsignmentsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/consignments/{consignment_id}/products', 'POST',
                                         path_params,
@@ -221,7 +221,7 @@ class ConsignmentsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/consignments', 'POST',
                                         path_params,
@@ -319,7 +319,7 @@ class ConsignmentsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/consignments/{consignment_id}', 'DELETE',
                                         path_params,
@@ -424,7 +424,7 @@ class ConsignmentsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/consignments/{consignment_id}/products/{product_id}', 'DELETE',
                                         path_params,
@@ -522,7 +522,7 @@ class ConsignmentsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/consignments/{consignment_id}', 'GET',
                                         path_params,
@@ -625,7 +625,7 @@ class ConsignmentsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/consignments', 'GET',
                                         path_params,
@@ -735,7 +735,7 @@ class ConsignmentsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/consignments/{consignment_id}/products', 'GET',
                                         path_params,
@@ -840,7 +840,7 @@ class ConsignmentsApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/consignments/{consignment_id}', 'PUT',
                                         path_params,

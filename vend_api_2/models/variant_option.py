@@ -47,6 +47,7 @@ class VariantOption(object):
 
         self._name = None
         self._value = None
+        self.discriminator = None
 
         if name is not None:
           self.name = name

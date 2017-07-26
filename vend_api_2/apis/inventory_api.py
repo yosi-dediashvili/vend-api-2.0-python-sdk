@@ -121,7 +121,7 @@ class InventoryApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = []
+        auth_settings = ['oauth', 'personal_token']
 
         return self.api_client.call_api('/inventory', 'GET',
                                         path_params,

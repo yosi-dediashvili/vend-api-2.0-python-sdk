@@ -62,6 +62,7 @@ class CustomerGroup(object):
         self._updated_at = None
         self._deleted_at = None
         self._version = None
+        self.discriminator = None
 
         self.name = name
         if id is not None:

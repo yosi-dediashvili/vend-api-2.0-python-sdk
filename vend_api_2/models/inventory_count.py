@@ -62,6 +62,7 @@ class InventoryCount(object):
         self._status = None
         self._filters = None
         self._type = None
+        self.discriminator = None
 
         self.outlet_id = outlet_id
         if due_at is not None:

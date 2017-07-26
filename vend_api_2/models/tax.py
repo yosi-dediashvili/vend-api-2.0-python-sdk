@@ -62,6 +62,7 @@ class Tax(object):
         self._rates = None
         self._is_default = None
         self._display_name = None
+        self.discriminator = None
 
         self.id = id
         if name is not None:

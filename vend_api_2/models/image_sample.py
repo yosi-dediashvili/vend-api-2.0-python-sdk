@@ -50,6 +50,7 @@ class ImageSample(object):
         self._id = None
         self._url = None
         self._version = None
+        self.discriminator = None
 
         if id is not None:
           self.id = id

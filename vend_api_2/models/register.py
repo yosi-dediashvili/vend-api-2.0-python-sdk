@@ -101,6 +101,7 @@ class Register(object):
         self._cash_managed_payment_type_id = None
         self._deleted_at = None
         self._version = None
+        self.discriminator = None
 
         if id is not None:
           self.id = id
