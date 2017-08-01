@@ -20,3 +20,4 @@ from .suppliers_api import SuppliersApi
 from .tags_api import TagsApi
 from .taxes_api import TaxesApi
 from .users_api import UsersApi
+from .default_api import DefaultApi

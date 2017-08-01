@@ -70,6 +70,7 @@ from .sale import Sale
 from .sale_collection import SaleCollection
 from .sale_response import SaleResponse
 from .sale_tax import SaleTax
+from .search_response import SearchResponse
 from .supplier import Supplier
 from .supplier_collection import SupplierCollection
 from .supplier_response import SupplierResponse

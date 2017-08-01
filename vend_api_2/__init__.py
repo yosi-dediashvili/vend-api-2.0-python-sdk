@@ -70,6 +70,7 @@ from .models.sale import Sale
 from .models.sale_collection import SaleCollection
 from .models.sale_response import SaleResponse
 from .models.sale_tax import SaleTax
+from .models.search_response import SearchResponse
 from .models.supplier import Supplier
 from .models.supplier_collection import SupplierCollection
 from .models.supplier_response import SupplierResponse
@@ -107,6 +108,7 @@ from .apis.suppliers_api import SuppliersApi
 from .apis.tags_api import TagsApi
 from .apis.taxes_api import TaxesApi
 from .apis.users_api import UsersApi
+from .apis.default_api import DefaultApi
 
 # import ApiClient
 from .api_client import ApiClient

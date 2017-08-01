@@ -122,6 +122,7 @@ Class | Method | HTTP request | Description
 *TaxesApi* | [**list_taxes**](docs/TaxesApi.md#list_taxes) | **GET** /taxes | List taxes
 *UsersApi* | [**get_user_by_id**](docs/UsersApi.md#get_user_by_id) | **GET** /users/{user_id} | Get a single user
 *UsersApi* | [**list_users**](docs/UsersApi.md#list_users) | **GET** /users | List users
+*DefaultApi* | [**search_get**](docs/DefaultApi.md#search_get) | **GET** /search | 
 
 
 ## Documentation For Models
@@ -182,6 +183,7 @@ Class | Method | HTTP request | Description
  - [SaleCollection](docs/SaleCollection.md)
  - [SaleResponse](docs/SaleResponse.md)
  - [SaleTax](docs/SaleTax.md)
+ - [SearchResponse](docs/SearchResponse.md)
  - [Supplier](docs/Supplier.md)
  - [SupplierCollection](docs/SupplierCollection.md)
  - [SupplierResponse](docs/SupplierResponse.md)
