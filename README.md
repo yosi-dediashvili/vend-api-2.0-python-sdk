@@ -115,6 +115,7 @@ Class | Method | HTTP request | Description
 *RegistersApi* | [**list_registers**](docs/RegistersApi.md#list_registers) | **GET** /registers | List registers
 *SalesApi* | [**get_sale_by_id**](docs/SalesApi.md#get_sale_by_id) | **GET** /sales/{sale_id} | Get a single sale
 *SalesApi* | [**list_sales**](docs/SalesApi.md#list_sales) | **GET** /sales | List Sales
+*SearchApi* | [**search**](docs/SearchApi.md#search) | **GET** /search | Search
 *SuppliersApi* | [**get_supplier_by_id**](docs/SuppliersApi.md#get_supplier_by_id) | **GET** /suppliers/{supplier_id} | Get a single supplier
 *SuppliersApi* | [**list_suppliers**](docs/SuppliersApi.md#list_suppliers) | **GET** /suppliers | List suppliers
 *TagsApi* | [**get_tag_by_id**](docs/TagsApi.md#get_tag_by_id) | **GET** /tags/{tag_id} | Get a single tag
@@ -122,7 +123,6 @@ Class | Method | HTTP request | Description
 *TaxesApi* | [**list_taxes**](docs/TaxesApi.md#list_taxes) | **GET** /taxes | List taxes
 *UsersApi* | [**get_user_by_id**](docs/UsersApi.md#get_user_by_id) | **GET** /users/{user_id} | Get a single user
 *UsersApi* | [**list_users**](docs/UsersApi.md#list_users) | **GET** /users | List users
-*DefaultApi* | [**search_get**](docs/DefaultApi.md#search_get) | **GET** /search | 
 
 
 ## Documentation For Models

@@ -104,11 +104,11 @@ from .apis.product_types_api import ProductTypesApi
 from .apis.products_api import ProductsApi
 from .apis.registers_api import RegistersApi
 from .apis.sales_api import SalesApi
+from .apis.search_api import SearchApi
 from .apis.suppliers_api import SuppliersApi
 from .apis.tags_api import TagsApi
 from .apis.taxes_api import TaxesApi
 from .apis.users_api import UsersApi
-from .apis.default_api import DefaultApi
 
 # import ApiClient
 from .api_client import ApiClient

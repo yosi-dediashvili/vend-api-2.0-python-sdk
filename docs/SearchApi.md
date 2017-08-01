@@ -1,16 +1,16 @@
-# vend_api_2.DefaultApi
+# vend_api_2.SearchApi
 
 All URIs are relative to *https://domain_prefix.vendhq.com/api/2.0*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**search_get**](DefaultApi.md#search_get) | **GET** /search | 
+[**search**](SearchApi.md#search) | **GET** /search | Search
 
 
-# **search_get**
-> SearchResponse search_get(type, order_by=order_by, order_direction=order_direction, page_size=page_size, offset=offset, id=id, id2=id2, deleted=deleted, status=status, invoice_number=invoice_number, customer_id=customer_id, user_id=user_id, outlet_id=outlet_id, date_from=date_from, date_to=date_to, sku=sku, sku2=sku2, supplier_id=supplier_id, supplier_id2=supplier_id2, brand_id=brand_id, brand_id2=brand_id2, tag_id=tag_id, tag_id2=tag_id2, product_type_id=product_type_id, product_type_id2=product_type_id2, variant_parent_id=variant_parent_id, variant_parent_id2=variant_parent_id2, customer_code=customer_code, first_name=first_name, last_name=last_name, company_name=company_name, phone=phone, mobile=mobile, email=email)
+# **search**
+> SearchResponse search(type, order_by=order_by, order_direction=order_direction, page_size=page_size, offset=offset, id=id, id2=id2, deleted=deleted, status=status, invoice_number=invoice_number, customer_id=customer_id, user_id=user_id, outlet_id=outlet_id, date_from=date_from, date_to=date_to, sku=sku, sku2=sku2, supplier_id=supplier_id, supplier_id2=supplier_id2, brand_id=brand_id, brand_id2=brand_id2, tag_id=tag_id, tag_id2=tag_id2, product_type_id=product_type_id, product_type_id2=product_type_id2, variant_parent_id=variant_parent_id, variant_parent_id2=variant_parent_id2, customer_code=customer_code, first_name=first_name, last_name=last_name, company_name=company_name, phone=phone, mobile=mobile, email=email)
 
-
+Search
 
 This endpoint enables seaching for a few types of entities (currently sales, products and customers) by a number of different attributes associated with them. The description for every query parameter indicates which type of object the parameter can be used to search for.
 
@@ -32,7 +32,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = vend_api_2.DefaultApi(vend_api_2.ApiClient(configuration))
+api_instance = vend_api_2.SearchApi(vend_api_2.ApiClient(configuration))
 type = 'type_example' # str | The enity type to search for. One of: `sales`, `products`, `customers`.
 order_by = 'order_by_example' # str | The attribute used to sort items returned in the response. (optional)
 order_direction = 'order_direction_example' # str | Sorting direction. One of: `asc`, `desc`. (optional)
@@ -69,10 +69,11 @@ mobile = 'mobile_example' # str | **CUSTOMERS** The `mobile` phone number for th
 email = 'email_example' # str | **CUSTOMERS** The `email` for the customer(s) to find. (optional)
 
 try: 
-    api_response = api_instance.search_get(type, order_by=order_by, order_direction=order_direction, page_size=page_size, offset=offset, id=id, id2=id2, deleted=deleted, status=status, invoice_number=invoice_number, customer_id=customer_id, user_id=user_id, outlet_id=outlet_id, date_from=date_from, date_to=date_to, sku=sku, sku2=sku2, supplier_id=supplier_id, supplier_id2=supplier_id2, brand_id=brand_id, brand_id2=brand_id2, tag_id=tag_id, tag_id2=tag_id2, product_type_id=product_type_id, product_type_id2=product_type_id2, variant_parent_id=variant_parent_id, variant_parent_id2=variant_parent_id2, customer_code=customer_code, first_name=first_name, last_name=last_name, company_name=company_name, phone=phone, mobile=mobile, email=email)
+    # Search
+    api_response = api_instance.search(type, order_by=order_by, order_direction=order_direction, page_size=page_size, offset=offset, id=id, id2=id2, deleted=deleted, status=status, invoice_number=invoice_number, customer_id=customer_id, user_id=user_id, outlet_id=outlet_id, date_from=date_from, date_to=date_to, sku=sku, sku2=sku2, supplier_id=supplier_id, supplier_id2=supplier_id2, brand_id=brand_id, brand_id2=brand_id2, tag_id=tag_id, tag_id2=tag_id2, product_type_id=product_type_id, product_type_id2=product_type_id2, variant_parent_id=variant_parent_id, variant_parent_id2=variant_parent_id2, customer_code=customer_code, first_name=first_name, last_name=last_name, company_name=company_name, phone=phone, mobile=mobile, email=email)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling DefaultApi->search_get: %s\n" % e)
+    print("Exception when calling SearchApi->search: %s\n" % e)
 ```
 
 ### Parameters

@@ -16,8 +16,8 @@ from .product_types_api import ProductTypesApi
 from .products_api import ProductsApi
 from .registers_api import RegistersApi
 from .sales_api import SalesApi
+from .search_api import SearchApi
 from .suppliers_api import SuppliersApi
 from .tags_api import TagsApi
 from .taxes_api import TaxesApi
 from .users_api import UsersApi
-from .default_api import DefaultApi
