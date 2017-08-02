@@ -36,7 +36,7 @@ class Sale(object):
         'total_price': 'float',
         'total_tax': 'float',
         'deleted_at': 'str',
-        'version': 'float',
+        'version': 'int',
         'taxes': 'list[SaleTax]',
         'register_id': 'str',
         'user_id': 'str',
@@ -256,7 +256,7 @@ class Sale(object):
         Auto-incrementing object version number.
 
         :return: The version of this Sale.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -267,7 +267,7 @@ class Sale(object):
         Auto-incrementing object version number.
 
         :param version: The version of this Sale.
-        :type: float
+        :type: int
         """
 
         self._version = version

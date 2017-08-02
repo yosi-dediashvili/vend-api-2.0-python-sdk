@@ -57,7 +57,7 @@ class Product(object):
         'created_at': 'str',
         'updated_at': 'str',
         'deleted_at': 'str',
-        'version': 'float'
+        'version': 'int'
     }
 
     attribute_map = {
@@ -781,7 +781,7 @@ class Product(object):
         Auto-incrementing object version number.
 
         :return: The version of this Product.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -792,7 +792,7 @@ class Product(object):
         Auto-incrementing object version number.
 
         :param version: The version of this Product.
-        :type: float
+        :type: int
         """
 
         self._version = version

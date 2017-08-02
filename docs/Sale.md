@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **total_price** | **float** | Sale total. | [optional] 
 **total_tax** | **float** | Tax total. | [optional] 
 **deleted_at** | **str** | Deletion timestamp in UTC. | [optional] 
-**version** | **float** | Auto-incrementing object version number. | [optional] 
+**version** | **int** | Auto-incrementing object version number. | [optional] 
 **taxes** | [**list[SaleTax]**](SaleTax.md) | Collection of taxes. | [optional] 
 **register_id** | **str** | Valid register ID for the retailer. | [optional] 
 **user_id** | **str** | Valid user ID for the retailer. | [optional] 

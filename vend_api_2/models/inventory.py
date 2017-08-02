@@ -193,7 +193,7 @@ class Inventory(object):
     def reorder_amount(self):
         """
         Gets the reorder_amount of this Inventory.
-        Amount to be added to the automatic stock order.+ version: 1288421 (number) - Auto-incrementing object version number.
+        Amount to be added to the automatic stock order.
 
         :return: The reorder_amount of this Inventory.
         :rtype: float
@@ -204,7 +204,7 @@ class Inventory(object):
     def reorder_amount(self, reorder_amount):
         """
         Sets the reorder_amount of this Inventory.
-        Amount to be added to the automatic stock order.+ version: 1288421 (number) - Auto-incrementing object version number.
+        Amount to be added to the automatic stock order.
 
         :param reorder_amount: The reorder_amount of this Inventory.
         :type: float

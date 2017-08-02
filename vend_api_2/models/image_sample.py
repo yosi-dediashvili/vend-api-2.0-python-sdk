@@ -33,7 +33,7 @@ class ImageSample(object):
     swagger_types = {
         'id': 'str',
         'url': 'str',
-        'version': 'float'
+        'version': 'int'
     }
 
     attribute_map = {
@@ -112,7 +112,7 @@ class ImageSample(object):
         Auto-incrementing object version number.
 
         :return: The version of this ImageSample.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -123,7 +123,7 @@ class ImageSample(object):
         Auto-incrementing object version number.
 
         :param version: The version of this ImageSample.
-        :type: float
+        :type: int
         """
 
         self._version = version

@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 **created_at** | **str** | Creation timestamp in UTC. | [optional] 
 **updated_at** | **str** | Last update timestamp in UTC. | [optional] 
 **deleted_at** | **str** | Deletion timestamp in UTC. | [optional] 
-**version** | **float** | Auto-incrementing object version number. | [optional] 
+**version** | **int** | Auto-incrementing object version number. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

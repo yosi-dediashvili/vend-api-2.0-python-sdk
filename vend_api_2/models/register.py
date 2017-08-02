@@ -50,7 +50,7 @@ class Register(object):
         'register_open_sequence_id': 'str',
         'cash_managed_payment_type_id': 'str',
         'deleted_at': 'str',
-        'version': 'float'
+        'version': 'int'
     }
 
     attribute_map = {
@@ -588,7 +588,7 @@ class Register(object):
         Auto-incrementing object version number.
 
         :return: The version of this Register.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -599,7 +599,7 @@ class Register(object):
         Auto-incrementing object version number.
 
         :param version: The version of this Register.
-        :type: float
+        :type: int
         """
 
         self._version = version

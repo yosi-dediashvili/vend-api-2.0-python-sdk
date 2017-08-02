@@ -49,7 +49,7 @@ class Consignment(object):
         'created_at': 'str',
         'updated_at': 'str',
         'deleted_at': 'str',
-        'version': 'float',
+        'version': 'int',
         'total_count_gain': 'float'
     }
 
@@ -565,7 +565,7 @@ class Consignment(object):
         Auto-incrementing object version number.
 
         :return: The version of this Consignment.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -576,7 +576,7 @@ class Consignment(object):
         Auto-incrementing object version number.
 
         :param version: The version of this Consignment.
-        :type: float
+        :type: int
         """
 
         self._version = version

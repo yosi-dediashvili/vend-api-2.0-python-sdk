@@ -238,7 +238,7 @@ class PriceBookProduct(object):
     def max_units(self):
         """
         Gets the max_units of this PriceBookProduct.
-        The maximum number of items for which this price will be used.+ version: 1288421 (number) - Auto-incrementing object version number.
+        The maximum number of items for which this price will be used.
 
         :return: The max_units of this PriceBookProduct.
         :rtype: float
@@ -249,7 +249,7 @@ class PriceBookProduct(object):
     def max_units(self, max_units):
         """
         Sets the max_units of this PriceBookProduct.
-        The maximum number of items for which this price will be used.+ version: 1288421 (number) - Auto-incrementing object version number.
+        The maximum number of items for which this price will be used.
 
         :param max_units: The max_units of this PriceBookProduct.
         :type: float

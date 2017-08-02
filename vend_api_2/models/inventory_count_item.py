@@ -41,7 +41,7 @@ class InventoryCountItem(object):
         'created_at': 'str',
         'updated_at': 'str',
         'deleted_at': 'str',
-        'version': 'float'
+        'version': 'int'
     }
 
     attribute_map = {
@@ -341,7 +341,7 @@ class InventoryCountItem(object):
         Auto-incrementing object version number.
 
         :return: The version of this InventoryCountItem.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -352,7 +352,7 @@ class InventoryCountItem(object):
         Auto-incrementing object version number.
 
         :param version: The version of this InventoryCountItem.
-        :type: float
+        :type: int
         """
         if version is None:
             raise ValueError("Invalid value for `version`, must not be `None`")

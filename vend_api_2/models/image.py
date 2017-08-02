@@ -32,7 +32,7 @@ class Image(object):
     """
     swagger_types = {
         'id': 'str',
-        'version': 'float',
+        'version': 'int',
         'product_id': 'str',
         'position': 'float',
         'status': 'str'
@@ -99,7 +99,7 @@ class Image(object):
         Auto-incrementing object version number.
 
         :return: The version of this Image.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -110,7 +110,7 @@ class Image(object):
         Auto-incrementing object version number.
 
         :param version: The version of this Image.
-        :type: float
+        :type: int
         """
 
         self._version = version

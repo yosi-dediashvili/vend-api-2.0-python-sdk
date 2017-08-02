@@ -73,7 +73,7 @@ class Customer(object):
         'created_at': 'str',
         'updated_at': 'str',
         'deleted_at': 'str',
-        'version': 'float'
+        'version': 'int'
     }
 
     attribute_map = {
@@ -1234,7 +1234,7 @@ class Customer(object):
         Auto-incrementing object version number.
 
         :return: The version of this Customer.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -1245,7 +1245,7 @@ class Customer(object):
         Auto-incrementing object version number.
 
         :param version: The version of this Customer.
-        :type: float
+        :type: int
         """
 
         self._version = version

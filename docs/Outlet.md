@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 **physical_state** | **str** | Physical address, state. | [optional] 
 **physical_country_id** | **str** | Physical address, country code. | [optional] 
 **deleted_at** | **str** | Deletion timestamp in UTC. | [optional] 
-**version** | **float** | Auto-incrementing object version number. | [optional] 
+**version** | **int** | Auto-incrementing object version number. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

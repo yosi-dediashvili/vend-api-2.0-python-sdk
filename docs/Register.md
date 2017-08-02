@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 **register_open_sequence_id** | **str** | **internal** The ID of the current register closure object. | [optional] 
 **cash_managed_payment_type_id** | **str** | **internal** The ID of the payment type used for cash management transactions in this regsiter. | [optional] 
 **deleted_at** | **str** | Deletion timestamp in UTC. | [optional] 
-**version** | **float** | Auto-incrementing object version number. | [optional] 
+**version** | **int** | Auto-incrementing object version number. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

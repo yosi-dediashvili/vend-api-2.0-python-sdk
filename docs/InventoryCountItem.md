@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **created_at** | **str** | The creation timestamp in UTC. | 
 **updated_at** | **str** | Last update timestamp in UTC. | 
 **deleted_at** | **str** | The deletion timestamp in UTC. | 
-**version** | **float** | Auto-incrementing object version number. | 
+**version** | **int** | Auto-incrementing object version number. | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

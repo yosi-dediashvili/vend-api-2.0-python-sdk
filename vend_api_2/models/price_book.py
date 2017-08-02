@@ -40,7 +40,7 @@ class PriceBook(object):
         'outlet_id': 'str',
         'restrict_to_platform_label': 'str',
         'customer_group': 'CustomerGroup',
-        'version': 'float',
+        'version': 'int',
         'deleted_at': 'str'
     }
 
@@ -313,7 +313,7 @@ class PriceBook(object):
         Auto-incrementing object version number.
 
         :return: The version of this PriceBook.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -324,7 +324,7 @@ class PriceBook(object):
         Auto-incrementing object version number.
 
         :param version: The version of this PriceBook.
-        :type: float
+        :type: int
         """
 
         self._version = version

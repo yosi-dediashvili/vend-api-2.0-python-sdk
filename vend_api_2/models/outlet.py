@@ -46,7 +46,7 @@ class Outlet(object):
         'physical_state': 'str',
         'physical_country_id': 'str',
         'deleted_at': 'str',
-        'version': 'float'
+        'version': 'int'
     }
 
     attribute_map = {
@@ -476,7 +476,7 @@ class Outlet(object):
         Auto-incrementing object version number.
 
         :return: The version of this Outlet.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -487,7 +487,7 @@ class Outlet(object):
         Auto-incrementing object version number.
 
         :param version: The version of this Outlet.
-        :type: float
+        :type: int
         """
 
         self._version = version

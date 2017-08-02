@@ -34,7 +34,7 @@ class BrandSample(object):
         'id': 'str',
         'name': 'str',
         'deleted_at': 'str',
-        'version': 'float'
+        'version': 'int'
     }
 
     attribute_map = {
@@ -140,7 +140,7 @@ class BrandSample(object):
         Auto-incrementing object version number.
 
         :return: The version of this BrandSample.
-        :rtype: float
+        :rtype: int
         """
         return self._version
 
@@ -151,7 +151,7 @@ class BrandSample(object):
         Auto-incrementing object version number.
 
         :param version: The version of this BrandSample.
-        :type: float
+        :type: int
         """
 
         self._version = version

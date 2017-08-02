@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **price** | **float** | Retail price. | [optional] 
 **loyalty_value** | **float** | Price book defined loyalty value. | [optional] 
 **min_units** | **float** | The minimum number of items for which this price will be used. | [optional] 
-**max_units** | **float** | The maximum number of items for which this price will be used.+ version: 1288421 (number) - Auto-incrementing object version number. | [optional] 
+**max_units** | **float** | The maximum number of items for which this price will be used. | [optional] 
 **created_at** | **str** | Creation timestamp in UTC. | [optional] 
 **updated_at** | **str** | Last update timestamp in UTC. | [optional] 
 **deleted_at** | **str** | Deletion timestamp in UTC. | [optional] 
