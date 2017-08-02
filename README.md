@@ -115,7 +115,7 @@ Class | Method | HTTP request | Description
 *RegistersApi* | [**list_registers**](docs/RegistersApi.md#list_registers) | **GET** /registers | List registers
 *SalesApi* | [**get_sale_by_id**](docs/SalesApi.md#get_sale_by_id) | **GET** /sales/{sale_id} | Get a single sale
 *SalesApi* | [**list_sales**](docs/SalesApi.md#list_sales) | **GET** /sales | List Sales
-*SearchApi* | [**search**](docs/SearchApi.md#search) | **GET** /search | Search
+*SearchApi* | [**search**](docs/SearchApi.md#search) | **GET** /search | Search for resources
 *SuppliersApi* | [**get_supplier_by_id**](docs/SuppliersApi.md#get_supplier_by_id) | **GET** /suppliers/{supplier_id} | Get a single supplier
 *SuppliersApi* | [**list_suppliers**](docs/SuppliersApi.md#list_suppliers) | **GET** /suppliers | List suppliers
 *TagsApi* | [**get_tag_by_id**](docs/TagsApi.md#get_tag_by_id) | **GET** /tags/{tag_id} | Get a single tag

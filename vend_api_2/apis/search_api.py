@@ -37,7 +37,7 @@ class SearchApi(object):
 
     def search(self, type, **kwargs):
         """
-        Search
+        Search for resources
         This endpoint enables seaching for a few types of entities (currently sales, products and customers) by a number of different attributes associated with them. The description for every query parameter indicates which type of object the parameter can be used to search for.
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please pass async=True
@@ -92,7 +92,7 @@ class SearchApi(object):
 
     def search_with_http_info(self, type, **kwargs):
         """
-        Search
+        Search for resources
         This endpoint enables seaching for a few types of entities (currently sales, products and customers) by a number of different attributes associated with them. The description for every query parameter indicates which type of object the parameter can be used to search for.
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please pass async=True

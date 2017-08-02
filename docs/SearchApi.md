@@ -4,13 +4,13 @@ All URIs are relative to *https://domain_prefix.vendhq.com/api/2.0*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**search**](SearchApi.md#search) | **GET** /search | Search
+[**search**](SearchApi.md#search) | **GET** /search | Search for resources
 
 
 # **search**
 > SearchResponse search(type, order_by=order_by, order_direction=order_direction, page_size=page_size, offset=offset, id=id, id2=id2, deleted=deleted, status=status, invoice_number=invoice_number, customer_id=customer_id, user_id=user_id, outlet_id=outlet_id, date_from=date_from, date_to=date_to, sku=sku, sku2=sku2, supplier_id=supplier_id, supplier_id2=supplier_id2, brand_id=brand_id, brand_id2=brand_id2, tag_id=tag_id, tag_id2=tag_id2, product_type_id=product_type_id, product_type_id2=product_type_id2, variant_parent_id=variant_parent_id, variant_parent_id2=variant_parent_id2, customer_code=customer_code, first_name=first_name, last_name=last_name, company_name=company_name, phone=phone, mobile=mobile, email=email)
 
-Search
+Search for resources
 
 This endpoint enables seaching for a few types of entities (currently sales, products and customers) by a number of different attributes associated with them. The description for every query parameter indicates which type of object the parameter can be used to search for.
 
@@ -69,7 +69,7 @@ mobile = 'mobile_example' # str | **CUSTOMERS** The `mobile` phone number for th
 email = 'email_example' # str | **CUSTOMERS** The `email` for the customer(s) to find. (optional)
 
 try: 
-    # Search
+    # Search for resources
     api_response = api_instance.search(type, order_by=order_by, order_direction=order_direction, page_size=page_size, offset=offset, id=id, id2=id2, deleted=deleted, status=status, invoice_number=invoice_number, customer_id=customer_id, user_id=user_id, outlet_id=outlet_id, date_from=date_from, date_to=date_to, sku=sku, sku2=sku2, supplier_id=supplier_id, supplier_id2=supplier_id2, brand_id=brand_id, brand_id2=brand_id2, tag_id=tag_id, tag_id2=tag_id2, product_type_id=product_type_id, product_type_id2=product_type_id2, variant_parent_id=variant_parent_id, variant_parent_id2=variant_parent_id2, customer_code=customer_code, first_name=first_name, last_name=last_name, company_name=company_name, phone=phone, mobile=mobile, email=email)
     pprint(api_response)
 except ApiException as e:
